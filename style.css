@@ -56,10 +56,12 @@ nav ul li a{
 h1{
     color: #fff;
     font-size: 100px;
+    font-weight: 800px;
+    text-shadow: 0 0 10px #fff;
 }
 
 p{
-    font-size: 11px;
+    font-size: 15px;
     line-height:15px ;
     color: #fff;
 }
@@ -67,7 +69,8 @@ p{
 button{
     width: 180px;
     color: #000;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 900;
     padding: 12px 0;
     background: rgb(235, 4, 15);
     border: 0;
@@ -84,22 +87,22 @@ button{
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 10px 15px;
+    margin: 10px 14px;
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
 }
 .card1{
-    background-image: url(legends.jpg);
+    background-image: linear-gradient(rgba(44, 0, 0, 0.7),rgba(82, 81, 81, 0.7)),url(legends.jpg);
 }
 .card2{
-    background-image: url(juice999.jpg);
+    background-image: linear-gradient(rgba(44, 0, 0, 0.7),rgba(82, 81, 81, 0.7)),url(juice999.jpg);
 }
 .card3{
-    background-image: url(deathrace.jpg);
+    background-image: linear-gradient(rgba(44, 0, 0, 0.7),rgba(82, 81, 81, 0.7)),url(deathrace.jpg);
 }
 .card4{
-    background-image: url(goodbye.jpg);
+    background-image: linear-gradient(rgba(44, 0, 0, 0.7),rgba(82, 81, 81, 0.7)),url(goodbye.jpg);
 }
 
 .card:hover{
@@ -107,9 +110,9 @@ button{
 }
 h5{
     color: #fff;
-    text-shadow: 0 0 5px #999;
+    text-shadow: 0 0 5px #d1d1d1;
 }
 .card p{
     text-shadow: 0 0 15px #000;
-    font-size: 8px;
+    font-size: 10px;
 }
